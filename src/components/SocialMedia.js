@@ -1,13 +1,13 @@
 import React from 'react';
-import { BsLinkedin, BsWhatsapp } from 'react-icons/bs';
+import { BsLinkedin, BsGithub } from 'react-icons/bs';
 import { SiGmail } from 'react-icons/si';
 
 const handleClickLinkedin = () => {
-  window.open('https://www.linkedin.com/in/juan-david-sanguino-483783260/');
+  window.open('https://www.linkedin.com/in/juandavid-sanguino/');
 }
 
-const handleClickWhatsapp = () => {
-  window.open('https://wa.me/573124645360');
+const handleClickGitHub = () => {
+  window.open('https://github.com/juansanguinoo/');
 }
 
 const handleClickMail = () => {
@@ -22,9 +22,9 @@ const SocialMedia = () => (
       <BsLinkedin />
     </div>
     <div
-      onClick={handleClickWhatsapp}
+      onClick={handleClickGitHub}
     >
-      <BsWhatsapp />
+      <BsGithub />
     </div>
     <div
       onClick={handleClickMail}
